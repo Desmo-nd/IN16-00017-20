@@ -1,0 +1,54 @@
+body{
+    margin-top:20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    background-color: white;
+}
+.form{
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 8, 64);
+    padding: 10px;
+    justify-content: space-between;
+    border: 3px black solid;
+    text-align: center;
+}
+#reg{
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.dess{
+    width: 100%;
+    height: auto;
+    text-align:center;
+   
+    margin: 10px;
+   padding-left: 40;
+   padding-right: 40;
+   color: wheat;
+   text-align: left;
+}
+.right{
+    float: right;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.sub{
+    width: 100%;
+    text-align: center;
+    color: wheat;
+    padding-bottom: 10px;
+    justify-content: space-between;
+
+}
+#din{
+    background-color: limegreen;
+}
+#don{
+    color: beige;
+    text-decoration: none;
+}

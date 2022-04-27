@@ -1,0 +1,130 @@
+*{
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(liz.jpeg);
+    background-size: cover;
+    font-size: large;
+   
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color:#051f47;
+    font-family: sans-sercif;
+    position: sticky;
+}
+.donn{
+    width: 90%;
+    margin: auto;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#stay{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.donn ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+.donn ul li a{
+    text-decoration: none;
+    color: white;
+}
+.donn ul li a:hover{
+    color: blue;
+}
+.active,.donn ul li:hover{
+    background: darkgrey;
+    border-radius: 3px;
+}
+.nicki{
+    float: left;
+    position: absolute;
+    padding-left:25% ;
+    padding-top: 5%;
+    color:black;
+    font-style: initial;
+    font-weight: bold;
+    width: 50%;
+    font-size: larger;
+    text-align: center;
+   
+}
+
+.nicki ul li{
+    list-style: none;
+    color: white;
+}
+#riss{
+    color: orange;
+    font-weight:bolder ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background:linear-gradient(to right, hsl(240, 87%, 9%), #071951);
+   
+    padding: 2PX 0 1;
+    font-size: medium;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+   text-align: center;
+   color: wheat;
+}
+#yes{
+    text-decoration: underline;
+    text-align: center;
+    color: wheat;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
